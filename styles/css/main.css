@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'droidigaregular';
+  src: url("../../fonts/droidiga-webfont.woff2") format("woff2"), url("../../fonts/droidiga-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.reg-textbox {
+  font-family: "News Cycle", sans-serif;
+  width: 600px;
+  max-width: 100%;
+  line-height: 1.5;
+  font-size: 1.2em;
+  padding: 50px;
+}
+.reg-textbox span {
+  font-family: "droidigaregular", sans-serif;
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+a:active, a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.main-nav {
+  padding: 50px;
+  width: 30%;
+  float: right;
+}
+.main-nav__bar__list {
+  font-family: "droidigaregular", sans-serif;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  padding-bottom: 25px;
+}
+.main-nav__bar__list a:active, .main-nav__bar__list a:focus {
+  border-bottom: 3px solid #000;
+  padding-bottom: 6px;
+}
+.main-nav__bar__list__dropdown {
+  padding-top: 20px;
+  font-family: "News Cycle", sans-serif;
+  font-size: 0.5em;
+}
+.main-nav__bar__list__dropdown__project {
+  padding: 10px 0;
+}
+.main-nav__bar__list__dropdown__project a span {
+  font-weight: bolder;
+}
+
+.main-page {
+  width: 70%;
+  float: left;
+}
+
+.logo-s {
+  margin: 40px;
+  width: 100px;
+}
+
+.about-me {
+  margin-left: 100px;
+}

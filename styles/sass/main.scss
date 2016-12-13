@@ -1,0 +1,98 @@
+//Variables
+$body-text:'News Cycle', sans-serif;
+$header-font:'droidigaregular', sans-serif;
+
+
+
+//Fonts
+@font-face {
+    font-family: 'droidigaregular';
+    src: url('../../fonts/droidiga-webfont.woff2') format('woff2'),
+         url('../../fonts/droidiga-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+//Global
+.reg-textbox {
+  font-family: $body-text;
+  width: 600px;
+  max-width: 100%;
+  line-height: 1.5;
+  font-size: 1.2em;
+  padding: 50px;
+  span {
+    font-family: $header-font;
+    text-transform: uppercase;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  &:hover {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  &:active, &:focus {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+
+//Homepage
+
+//nav
+.main-nav {
+  padding: 50px;
+ width: 30%;
+ float: right;
+ &__bar {
+   &__list {
+     font-family: $header-font;
+     text-align: right;
+     text-transform: uppercase;
+     font-size: 1.8em;
+     padding-bottom: 25px;
+     a {
+       &:active, &:focus {
+         border-bottom: 3px solid #000;
+         padding-bottom: 6px;
+       }
+     }
+     &__dropdown {
+       padding-top: 20px;
+       font-family: $body-text;
+       font-size: 0.5em;
+       &__project {
+       padding: 10px 0;
+         a {
+           span {
+             font-weight: bolder;
+           }
+         }
+       }
+     }
+   }
+ }
+}
+
+
+
+.main-page {
+  width: 70%;
+  float: left
+}
+.logo-s {
+  margin: 40px;
+  width: 100px;
+}
+.about-me {
+  margin-left: 100px;
+}
