@@ -38,6 +38,7 @@ a:active, a:focus {
   padding: 50px;
   width: 30%;
   float: right;
+  height: 650px;
 }
 .main-nav__bar__list {
   font-family: "droidigaregular", sans-serif;
@@ -51,7 +52,7 @@ a:active, a:focus {
   padding-bottom: 6px;
 }
 .main-nav__bar__list__dropdown {
-  padding-top: 20px;
+  padding: 20px 20px 0 0;
   font-family: "News Cycle", sans-serif;
   font-size: 0.5em;
 }
@@ -60,6 +61,14 @@ a:active, a:focus {
 }
 .main-nav__bar__list__dropdown__project a span {
   font-weight: bolder;
+}
+
+.affix {
+  top: 0;
+}
+
+.affix-top {
+  position: absolute;
 }
 
 .main-page {
@@ -74,4 +83,38 @@ a:active, a:focus {
 
 .about-me {
   margin-left: 100px;
+}
+
+.work-thumbnails {
+  padding: 60px 0 200px 0;
+  margin-left: 150px;
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-portrait, .img-landscape {
+  margin: 15px;
+  height: 130px;
+}
+
+.contact {
+  left: 50%;
+  width: 500px;
+  max-width: 100%;
+}
+.contact h1 {
+  font-family: "droidigaregular", sans-serif;
+  text-transform: uppercase;
+}
+.contact h3 {
+  font-family: "News Cycle", sans-serif;
+  font-weight: 600;
+}
+.contact h3 span {
+  border-bottom: 2px solid #5d7f5e;
+  color: #5d7f5e;
+}
+.contact i {
+  font-size: 3em;
+  padding: 10px 20px 0 0;
 }

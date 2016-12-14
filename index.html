@@ -20,13 +20,13 @@
 
   <body>
     <div class="container-fluid">
-       
+
       <!-- Homepage Navigation -->
       <div class="main-nav">
-        <ul class="main-nav__bar">
+        <ul class="nav nav-pills nav-stacked main-nav__bar" data-spy="affix" data-offset-top="50">
           <li class="main-nav__bar__list" style="padding-bottom:40px;"><a href="#" style="border-bottom: none;">angela alarcon</a></li>
-          <li class="main-nav__bar__list"><a href="#">about</a></li>
-          <li class="main-nav__bar__list"><a href="#">work</a>
+          <li class="main-nav__bar__list"><a href="#about">about</a></li>
+          <li class="main-nav__bar__list"><a href="#work">work</a>
             <ul class="main-nav__bar__list__dropdown">
               <li class="main-nav__bar__list__dropdown__project"><a href="#">the curran  <span>01</span></a></li>
               <li class="main-nav__bar__list__dropdown__project"><a href="#">sf travel  <span>02</span></a></li>
@@ -35,34 +35,63 @@
               <li class="main-nav__bar__list__dropdown__project"><a href="#">high spirits  <span>05</span></a></li>
             </ul>
           </li>
-          <li class="main-nav__bar__list"><a href="#">contact</a></li>
+          <li class="main-nav__bar__list"><a href="#contact">contact</a></li>
         </ul>
       </div>
 
       <!-- Homepage Content -->
       <div class="main-page">
+
+        <!-- AA Logo -->
         <div class="row">
           <img class="logo-s" src="images/aa-s.png" alt="">
         </div>
 
+        <!-- About -->
         <div class="row">
-          <div class="reg-textbox about-me col-md-8">
+          <div id="about" class="reg-textbox about-me col-md-8">
             <p>I am a <span>UX and Visual Designer</span> with an inquisitive mind, constantly seeking learning and growth through team work and mentorship, as well as expanding my creativity through inspiration and experience.</p>
             <p>I am a  highly-motivated self-starter who understands the process of user experience, can rock the visual design and also do some light prototyping using beautiful, clean code and animation.</p>
           </div>
         </div>
 
+        <!-- Work Thumbnails -->
         <div class="row">
-          <div class="work-thumbnails">
+          <div id="work" class="work-thumbnails">
+            <div class="row">
+              <img class="img-landscape" src="images/thumbnails/curran.jpg" alt="">
+              <img class="img-portrait" src="images/thumbnails/sftravel.jpg" alt="">
+            </div>
+
+            <div class="row">
+              <img class="img-landscape" src="images/thumbnails/among-strangers.jpg" alt="">
+              <img class="img-landscape" src="images/thumbnails/parkarma.jpg" alt="">
+
+            </div>
+            <div class="row">
+              <img class="img-landscape" src="images/thumbnails/high-spirits.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="row">
+          <div id="contact" class="contact">
+            <h1>Don't be shy, say hi.</h1>
+            <h3>Email me at <span>info@angelaalarcon.net</span>
+            <br>
+            <br>
+            Or connect with me on
+            </h3>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-behance-square" aria-hidden="true"></i>
+            <i class="fa fa-dribbble" aria-hidden="true"></i>
 
           </div>
         </div>
 
-        <div class="row">
-          <div class="contact">
 
-          </div>
-        </div>
       </div>
 
 

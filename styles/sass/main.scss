@@ -51,8 +51,9 @@ a {
 //nav
 .main-nav {
   padding: 50px;
- width: 30%;
- float: right;
+  width: 30%;
+  float: right;
+  height: 650px;
  &__bar {
    &__list {
      font-family: $header-font;
@@ -67,7 +68,7 @@ a {
        }
      }
      &__dropdown {
-       padding-top: 20px;
+       padding: 20px 20px 0 0;
        font-family: $body-text;
        font-size: 0.5em;
        &__project {
@@ -83,8 +84,17 @@ a {
  }
 }
 
+.affix {
+  top: 0;
+}
+.affix-top {
+  position: absolute;
+
+}
 
 
+
+//main-page
 .main-page {
   width: 70%;
   float: left
@@ -95,4 +105,42 @@ a {
 }
 .about-me {
   margin-left: 100px;
+}
+
+//work thumbnails
+.work-thumbnails {
+  padding: 60px 0 200px 0;
+  margin-left: 150px;
+  width: 600px;
+  max-width: 100%;
+}
+
+.img-portrait, .img-landscape {
+  margin: 15px;
+  height: 130px;
+}
+
+//contact
+.contact {
+  left: 50%;
+  width: 500px;
+  max-width: 100%;
+  h1 {
+    font-family: $header-font;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-family: $body-text;
+    font-weight: 600;
+    span {
+      border-bottom: 2px solid #5d7f5e;
+      color: #5d7f5e;
+    }
+  }
+  i {
+    font-size: 3em;
+    padding: 10px 20px 0 0;
+  }
+
+
 }
